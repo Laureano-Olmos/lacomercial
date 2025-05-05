@@ -1,5 +1,5 @@
 //URL para acceder a la API
-const URL = '../api/datos.php?tabla=productos';
+const URL = './api/datos.php?tabla=productos';
 
 /**
  * Selecciona los productos de la BD

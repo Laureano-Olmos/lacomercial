@@ -96,7 +96,7 @@ class Modelo extends Conexion {
         if($this->limite > 0) {
             $sql .= " LIMIT $this->limite";
         }
-        echo $sql; //mostramos la instruccion SQL
+        //echo $sql; //mostramos la instruccion SQL
 
         //Ejecutamos la instruccion SQL
         $resultado = $this->db->query($sql);
