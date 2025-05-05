@@ -7,7 +7,7 @@ if(isset($_GET['tabla'])) { //si esta seteado el parametro tabla
     $tabla = new Modelo($_GET['tabla']); //creamos el objeto tabla
 
     //si hay parametro id
-    if(isset($_GET['tabla'])) {
+    if(isset($_GET['id'])) {
         $tabla->setCriterio("id=" . $_GET['id']);
     }
 
